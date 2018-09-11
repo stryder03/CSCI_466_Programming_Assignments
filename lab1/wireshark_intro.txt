@@ -1,0 +1,8 @@
+a) HTTP, TCP, TLSv1.2
+
+b) 0.70935 s
+
+c) Src: 10.152.145.137 (10.152.145.137), Dst: gaia.cs.umass.edu (128.119.245.12)
+
+d) 380	13:51:03.204712	10.152.145.137	gaia.cs.umass.edu	HTTP	474	GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.1 
+   382	13:51:03.275647	gaia.cs.umass.edu	10.152.145.137	HTTP	504	HTTP/1.1 200 OK  (text/html)

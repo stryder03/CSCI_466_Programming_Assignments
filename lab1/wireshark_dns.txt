@@ -1,0 +1,34 @@
+1)  nslookup netsys.kaist.ac.kr
+Server:		153.90.2.1
+Address:	153.90.2.1#53
+
+Non-authoritative answer:
+Name:	netsys.kaist.ac.kr
+Address: 143.248.56.3
+
+
+2)  nslookup -type=NS ox.ac.uk
+Server:		153.90.2.1
+Address:	153.90.2.1#53
+
+Non-authoritative answer:
+ox.ac.uk	nameserver = dns2.ox.ac.uk.
+ox.ac.uk	nameserver = dns1.ox.ac.uk.
+ox.ac.uk	nameserver = ns2.ja.net.
+ox.ac.uk	nameserver = dns0.ox.ac.uk.
+
+3)	nslookup www.yahoo.com dns2.ox.ac.uk
+Server:		dns2.ox.ac.uk
+Address:	163.1.2.190#53
+
+** server can't find www.yahoo.com: REFUSED
+
+4)	UDP
+
+5)  query dest port: 53
+    resp src   port: 53
+
+6)  153.90.2.1
+	yes it is the same
+
+7)  
