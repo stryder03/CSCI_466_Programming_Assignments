@@ -3,5 +3,6 @@ __pycache*
 *.sublime-project
 *.sublime-workspace
 .python-version
-bin/python3.6
+bin/python*
 lib/python*
+.DS_Store
